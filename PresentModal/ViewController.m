@@ -7,6 +7,10 @@
 //
 
 #import "ViewController.h"
+#import "PresentViewController.h"
+#import "UIViewController+PresentModal.h"
+#import "PresentView.h"
+
 
 @interface ViewController ()
 
@@ -16,14 +20,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+   self.title = @"防京东购物车Modal";
 }
 
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (IBAction)presentModalBtnClick:(UIButton *)sender
+{
+    PresentViewController *VC = [[PresentViewController alloc] init];
+    [self presentSemiModalViewController:VC contentHeight:self.view.frame.size.height shouldDismissPopover:YES completion:nil];
 }
-
 
 @end

@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2EB54A412041064B003D0E4D /* PresentModalTransitioningDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EB54A392041064B003D0E4D /* PresentModalTransitioningDelegate.m */; };
+		2EB54A422041064B003D0E4D /* UIViewController+PresentModal.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EB54A3D2041064B003D0E4D /* UIViewController+PresentModal.m */; };
+		2EB54A432041064B003D0E4D /* PresentModalPresentationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EB54A3F2041064B003D0E4D /* PresentModalPresentationController.m */; };
+		2EB54A442041064B003D0E4D /* PresentModalAnimatedTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EB54A402041064B003D0E4D /* PresentModalAnimatedTransition.m */; };
+		2EB54A492041066C003D0E4D /* PresentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EB54A462041066C003D0E4D /* PresentViewController.m */; };
+		2EB54A4A2041066C003D0E4D /* PresentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EB54A482041066C003D0E4D /* PresentView.m */; };
 		2EC44EE6200EE6A100FCED7E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EC44EE5200EE6A100FCED7E /* AppDelegate.m */; };
 		2EC44EE9200EE6A100FCED7E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EC44EE8200EE6A100FCED7E /* ViewController.m */; };
 		2EC44EEC200EE6A100FCED7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EC44EEA200EE6A100FCED7E /* Main.storyboard */; };
@@ -35,6 +41,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2EB54A392041064B003D0E4D /* PresentModalTransitioningDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresentModalTransitioningDelegate.m; sourceTree = "<group>"; };
+		2EB54A3A2041064B003D0E4D /* UIViewController+PresentModal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+PresentModal.h"; sourceTree = "<group>"; };
+		2EB54A3B2041064B003D0E4D /* PresentModalPresentationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresentModalPresentationController.h; sourceTree = "<group>"; };
+		2EB54A3C2041064B003D0E4D /* PresentModalAnimatedTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresentModalAnimatedTransition.h; sourceTree = "<group>"; };
+		2EB54A3D2041064B003D0E4D /* UIViewController+PresentModal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+PresentModal.m"; sourceTree = "<group>"; };
+		2EB54A3E2041064B003D0E4D /* PresentModalTransitioningDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresentModalTransitioningDelegate.h; sourceTree = "<group>"; };
+		2EB54A3F2041064B003D0E4D /* PresentModalPresentationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresentModalPresentationController.m; sourceTree = "<group>"; };
+		2EB54A402041064B003D0E4D /* PresentModalAnimatedTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresentModalAnimatedTransition.m; sourceTree = "<group>"; };
+		2EB54A452041066C003D0E4D /* PresentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresentViewController.h; sourceTree = "<group>"; };
+		2EB54A462041066C003D0E4D /* PresentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresentViewController.m; sourceTree = "<group>"; };
+		2EB54A472041066C003D0E4D /* PresentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresentView.h; sourceTree = "<group>"; };
+		2EB54A482041066C003D0E4D /* PresentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresentView.m; sourceTree = "<group>"; };
 		2EC44EE1200EE6A100FCED7E /* PresentModal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PresentModal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EC44EE4200EE6A100FCED7E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2EC44EE5200EE6A100FCED7E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -78,6 +96,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2EB54A382041064B003D0E4D /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				2EB54A392041064B003D0E4D /* PresentModalTransitioningDelegate.m */,
+				2EB54A3A2041064B003D0E4D /* UIViewController+PresentModal.h */,
+				2EB54A3B2041064B003D0E4D /* PresentModalPresentationController.h */,
+				2EB54A3C2041064B003D0E4D /* PresentModalAnimatedTransition.h */,
+				2EB54A3D2041064B003D0E4D /* UIViewController+PresentModal.m */,
+				2EB54A3E2041064B003D0E4D /* PresentModalTransitioningDelegate.h */,
+				2EB54A3F2041064B003D0E4D /* PresentModalPresentationController.m */,
+				2EB54A402041064B003D0E4D /* PresentModalAnimatedTransition.m */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
 		2EC44ED8200EE6A100FCED7E = {
 			isa = PBXGroup;
 			children = (
@@ -101,10 +134,15 @@
 		2EC44EE3200EE6A100FCED7E /* PresentModal */ = {
 			isa = PBXGroup;
 			children = (
+				2EB54A382041064B003D0E4D /* Modal */,
 				2EC44EE4200EE6A100FCED7E /* AppDelegate.h */,
 				2EC44EE5200EE6A100FCED7E /* AppDelegate.m */,
 				2EC44EE7200EE6A100FCED7E /* ViewController.h */,
 				2EC44EE8200EE6A100FCED7E /* ViewController.m */,
+				2EB54A472041066C003D0E4D /* PresentView.h */,
+				2EB54A482041066C003D0E4D /* PresentView.m */,
+				2EB54A452041066C003D0E4D /* PresentViewController.h */,
+				2EB54A462041066C003D0E4D /* PresentViewController.m */,
 				2EC44EEA200EE6A100FCED7E /* Main.storyboard */,
 				2EC44EED200EE6A100FCED7E /* Assets.xcassets */,
 				2EC44EEF200EE6A100FCED7E /* LaunchScreen.storyboard */,
@@ -265,7 +303,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EB54A412041064B003D0E4D /* PresentModalTransitioningDelegate.m in Sources */,
 				2EC44EE9200EE6A100FCED7E /* ViewController.m in Sources */,
+				2EB54A492041066C003D0E4D /* PresentViewController.m in Sources */,
+				2EB54A422041064B003D0E4D /* UIViewController+PresentModal.m in Sources */,
+				2EB54A4A2041066C003D0E4D /* PresentView.m in Sources */,
+				2EB54A442041064B003D0E4D /* PresentModalAnimatedTransition.m in Sources */,
+				2EB54A432041064B003D0E4D /* PresentModalPresentationController.m in Sources */,
 				2EC44EF4200EE6A200FCED7E /* main.m in Sources */,
 				2EC44EE6200EE6A100FCED7E /* AppDelegate.m in Sources */,
 			);
